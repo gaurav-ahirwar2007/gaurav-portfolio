@@ -307,3 +307,22 @@ footer {
   font-size: 0.9rem;
 }
 
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 12px;
+}
+
+.footer-links a {
+  color: var(--muted);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.footer-links a:hover {
+  color: var(--accent);
+}
+
