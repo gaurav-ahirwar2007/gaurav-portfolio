@@ -257,3 +257,53 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+
+.contact-form {
+  display: grid;
+  gap: 18px;
+  max-width: 600px;
+  margin-top: 28px;
+}
+
+.contact-form div {
+  display: grid;
+  gap: 8px;
+}
+
+.contact-form label {
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 14px;
+  border: 1px solid #d5d8d0;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #202820;
+  font: inherit;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid #52745d;
+  outline-offset: 2px;
+}
+
+.contact-form button {
+  justify-self: start;
+  cursor: pointer;
+}
+
+.form-note {
+  color: #666b63;
+  font-size: 0.9rem;
+}
+
